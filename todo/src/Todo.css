@@ -41,3 +41,39 @@ ul {
 .card{
     box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addButton{
+  width: 50px;
+  height: 40px;
+  border: none;
+  background-color: skyblue;
+  border-radius: 50px;
+}
+
+.modal{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hide{
+  display: none;
+}
+
+.cardModal{
+  padding: 20px;
+  background-color: white;
+}
