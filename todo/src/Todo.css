@@ -1,0 +1,43 @@
+.container {
+  margin: auto;
+  max-width: 600px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+form {
+  text-align: center;
+}
+
+input{
+    margin-right: 10px;
+    height: 24px;
+    width: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  
+}
+
+.card{
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+}
